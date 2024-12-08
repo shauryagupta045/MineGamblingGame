@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mines Game</title>
+    <link rel="stylesheet" href="Mine.css">
+</head>
+<body>
+
+    <div class="game-content"  id="home-page">
+        <h1> Mine Gambling Game</h1>
+        <h3><button  onclick="start()" id="play">Let's play</button></h3>
+        <h5><a href=""> How to play ?</a></h5>
+
+    </div>
+
+
+    <div class="game-container   hidden"  id="game-page">
+        <h1> Mine Gambling Game</h1>
+        <h4>(Please Enter The Bet Amount First)</h4>
+        <div class="grid" id="play">
+            <!-- 25 tiles  -->
+        </div>
+        <div class="game-info">
+            <p>Winning Amount:<br> $<span id="balance">0</span></p><br>
+            <p>Bet: $<span id="bet">0</span></p><br>
+            <input id="bet-input" type="number" placeholder="Enter bet amount"><br>
+            <p>Total Amount: $<span id="saving">100</span></p>
+        </div>
+        <div class="btn">
+      <button id="start-game">Start Game</button>
+            <button id="cash-out">Cash Out</button>
+        </div>
+    </div>
+
+    <script src="Mine.js"></script>
+</body>
+</html>
