@@ -30,7 +30,7 @@ MineGamblingGame/
 Clone this repository:
 bash
 Copy code
-git clone https://github.com/your-username/MineGamblingGame.git
+git clone https://github.com/shauryagupta045/MineGamblingGame.git
 Navigate to the project folder:
 bash
 Copy code
