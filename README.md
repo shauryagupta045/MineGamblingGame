@@ -23,9 +23,9 @@ plaintext
 Copy code
 MineGamblingGame/
 │
-├── index.html        # Main HTML file for the game interface
-├── styles.css        # CSS file for styling the game
-└── script.js         # JavaScript file containing game logic
+├── Mine.html        # Main HTML file for the game interface
+├── Mine.css        # CSS file for styling the game
+└── Mine.js         # JavaScript file containing game logic
 🛠 How to Run the Game Locally
 Clone this repository:
 bash
